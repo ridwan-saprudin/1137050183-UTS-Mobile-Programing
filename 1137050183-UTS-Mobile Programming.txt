@@ -1,0 +1,34 @@
+UTS MOBILE PROGRAMING 
+NIM 	: 1137050183
+NAMA 	: RIDWAN SAPRUDIN 
+KELAS JUMAT 16.20 
+
+1. Tag xml menampilkan gambar : 	<ImageView	.... />
+2. Layout Resource
+3. kalimat dengan Camel Case : "I Like Practice Sets The Best"
+4. RelativeLayout dan LinearLayout disebut juga dengan layout manager/container(wadah).
+	dimana Linear Layout berfungsi untuk mengatur setiap widget didalamnya, dalam format horizontal atau vertical.
+   sedangkan relative Layout berfungsi untuk mengatur jarak antar widget ataupun dengan container/layout itu sendiri secara relative.
+
+5. <RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<Button
+        android:id="@+id/lyla_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:text="Click Me"/>
+    
+    </RelativeLayout>  
+
+6. 	-pada LinearLayout(1) menampilkan tiga teks berbeda dengan orientasi layout vertical (dari atas ke bawah), dimana teks 		     pertama ukurannya 54sp, teks ukuran kedua 54sp, dan teks ukuran ketiga 34sp sedangkan masing-masing warnanya sama.  
+	-pada LinearLayout(2) menampilkan tiga teks berbeda dengan orientasi layout horizontal (dari kiri ke kanan), dimana semua  ukuran teks sama 54sp, background dan warna teks sama. 
+		kesimpulannya kedua layout tersebut sama sama menggunakan LinearLayout namun yang membedakannya adalah orientasi dari masing-masing teks yang ditampilkan antara horizontal dan vertical.
